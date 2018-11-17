@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/kaven?serverTimezone=Asia/Shanghai
+    username: kaven
+    password: 015036
+  jpa:
+    hibernate:
+      ddl-auto: update #更新
+    show-sql: true
